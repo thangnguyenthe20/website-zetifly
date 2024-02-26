@@ -1,0 +1,60 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "components/button.css";
+@import "components/carousel.css";
+@import "components/product.css";
+@import "components/loader.css";
+
+@layer base {
+  html {
+    @apply font-sans text-sm;
+  }
+  .text-heading {
+    @apply font-serif sm:text-6xl text-4xl text-primary tracking-[1px] sm:leading-[55px];
+  }
+  .text-label {
+    @apply text-primary text-[13px] uppercase tracking-[2px];
+    word-spacing: 3px;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-6 lg:py-[140px] py-[72px];
+  }
+
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+}
+
+.terms-of-use {
+  padding: 30px 200px 40px;
+}
+
+.terms-of-use h3 {
+  font-size: 30px;
+  margin: 24px 0 20px 0;
+  font-weight: bold;
+  line-height: 34px;
+}
+
+.terms-of-use p {
+  font-size: 16px;
+  line-height: 22px;
+  word-break: break-word;
+}
+
+@media only screen and (max-width: 768px) {
+  .terms-of-use {
+    padding: 30px 80px 40px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .terms-of-use {
+    padding: 20px 20px 30px;
+  }
+}

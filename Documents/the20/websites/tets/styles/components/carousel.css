@@ -1,0 +1,24 @@
+.hero-carousel .swiper-slide img {
+  @apply w-full h-[760px] object-cover object-top;
+}
+.hero-carousel .swiper-pagination-bullets {
+  @apply mb-8;
+}
+.hero-carousel .swiper-pagination-bullet {
+  @apply w-12 h-1 bg-transparent border border-solid border-white rounded-none bg-white;
+}
+
+.partner-carousel .swiper-pagination-bullet {
+  @apply border-white bg-white;
+}
+
+.ingredient-carousel .swiper {
+  @apply h-full;
+}
+
+.ingredient-carousel .swiper-slide {
+  @apply bg-black h-auto text-center;
+}
+.ingredient-carousel .swiper-content {
+  @apply h-full;
+}
