@@ -7,35 +7,33 @@ const users = [
   {
     name: "Alexander Mitchell",
     comment:
-      "Exceptional service! The marketing strategies provided by the company significantly boosted our brand visibility and engagement. Their team's expertise and dedication truly make a difference.",
+      "This has been the best decision we have made for our new business. We constantly are told by our patients that our website is so unique and how much it stands out from other websites. Corridoy captured exactly what we told them we stood for and we couldn’t be any happier with their service!",
     image: "/image/users/user-1.jpg",
     rating: 5,
   },
   {
     name: "Ava Robinson",
     comment:
-      "Impressive results! The marketing service company delivered on their promises, exceeding our expectations. Their innovative approach and attention to detail set them apart in the competitive landscape.",
+      "Very professional, on time, communicates in a timely manner and has amazing ideas for the best marketing message.",
     image: "/image/users/user-2.jpg",
     rating: 5,
   },
   {
     name: "Noah Harrison",
-    comment:
-      "Outstanding collaboration! Working with this marketing company has been a pleasure. Their team's responsiveness and ability to adapt strategies to our specific industry needs have been crucial to our success.",
+    comment: "We are so pleased with the professionalism and talent that has been provided!.",
     image: "/image/users/user-3.jpg",
     rating: 5,
   },
   {
     name: "Sophia Brooks",
-    comment:
-      "Highly recommended! The marketing services provided were not only effective but also well-tailored to our brand. The company's commitment to delivering tangible results is commendable.",
+    comment: `I'm sure this isn't "business as usual", so the extra effort put into this job was truly appreciated. I highly recommend Corridoy and look forward to working with them again in the future!`,
     image: "/image/users/user-4.jpg",
     rating: 5,
   },
   {
     name: "Jackson Turner",
     comment:
-      "Strategic excellence! We appreciate the comprehensive marketing strategies implemented by this company. Their proactive approach and in-depth market knowledge have contributed significantly to our business growth.",
+      " I’ve dealt with multiple people with different websites and have never been happy with the results. I would recommend them every time!",
     image: "/image/users/user-5.jpg",
     rating: 4,
   },
@@ -45,16 +43,18 @@ export default function Home() {
   return (
     <div>
       <div className="relative w-full h-screen">
-        <video className="brightness-90" autoPlay={true} muted loop>
-          <source src="/video/video-1.mp4" type="video/mp4"></source>
-        </video>
+        <Image
+          src="/image/banners/banner-0.jpg"
+          alt="corridoy"
+          fill
+          className="object-cover object-top w-full h-full -z-10 brightness-[0.9]"
+        />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="w-full sm:w-[500px] flex justify-center items-center flex-col lg:gap-9 gap-4">
-            <h3 className="text-white uppercase text-heading">ninomar</h3>
+            <h3 className="text-white uppercase text-heading">corridoy</h3>
             <p className="leading-6 text-center text-white">
-              Considering our customers as honored guests at a gathering, we step into the role of hosts. Our daily
-              commitment is to improve each vital aspect of the customer experience, ensuring it becomes progressively
-              better.
+              With unwavering confidence, we promise the delivery of highly effective and tailored marketing strategies
+              built specifically for your company's success.
             </p>
           </div>
         </div>
@@ -63,7 +63,7 @@ export default function Home() {
         <div className="absolute inset-0">
           <Image
             src="/image/banners/banner-1.jpg"
-            alt="ninomar"
+            alt="corridoy"
             fill
             className="object-cover object-top w-full h-full -z-10 brightness-[0.9]"
           />
@@ -73,8 +73,8 @@ export default function Home() {
             <div className="flex items-center justify-center w-full h-full px-8 pt-16 lg:px-6 sm:p-16">
               <div className="w-full sm:w-[600px] flex justify-center items-center lg:text-start text-center flex-col gap-9">
                 <p className="px-8 text-2xl text-center text-white sm:px-0">
-                  Marketing is the skillful practice of comprehending, conveying, and satisfying the needs and desires
-                  of consumers.
+                  Count on our unwavering dedication to provide precisely designed marketing solutions that align with
+                  your company's goals.
                 </p>
                 <Link href="/our-services" className="block text-white tracking-[1px] w-fit pb-2">
                   <button className="btn btn-primary w-fit">OUR SERVICES</button>
@@ -88,7 +88,7 @@ export default function Home() {
         <div className="absolute inset-0">
           <Image
             src="/image/banners/banner-2.jpg"
-            alt="ninomar"
+            alt="corridoy"
             fill
             className="object-cover object-center w-full h-full -z-10 brightness-[0.9]"
           />
@@ -98,7 +98,8 @@ export default function Home() {
             <div className="flex items-center justify-center w-full h-full px-8 pt-16 lg:px-6 sm:p-16">
               <div className="w-full sm:w-[600px] flex justify-center items-center lg:text-start text-center flex-col gap-9">
                 <p className="px-8 text-2xl text-center text-white sm:px-0">
-                  Excellence is demonstrated by doing things correctly even when no one is observing.
+                  At the core of our purpose is a team of competent experts dedicated to transforming hurdles into
+                  opportunities, ensuring your success in a rapidly changing business environment.
                 </p>
                 <Link href="/about" className="block text-white tracking-[1px] w-fit pb-2">
                   <button className="btn btn-primary w-fit">ABOUT US</button>

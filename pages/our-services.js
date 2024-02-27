@@ -8,17 +8,16 @@ const Services = () => {
       <div className="relative w-full min-h-screen">
         <Image
           src="/image/banners/banner-3.jpg"
-          alt="ninomar"
+          alt="corridoy"
           fill
           className="object-cover object-center w-full h-full -z-10 brightness-[0.8]"
         />
         <div className={`absolute inset-0 flex justify-center items-center`}>
           <div className="w-full sm:w-[550px] flex justify-center items-center flex-col lg:gap-9 gap-4">
-            <h3 className="text-white uppercase text-heading">ninomar</h3>
+            <h3 className="text-white uppercase text-heading">corridoy</h3>
             <p className="leading-6 text-center text-white">
-              Embedded within every product creator is the aspiration to simplify or ease someone&apos;s life. By
-              attentively listening to customers and providing what they require, they respond with affection and
-              loyalty to your brand.
+              Count on our unwavering dedication to provide precisely designed marketing solutions that align with your
+              company's goals.
             </p>
           </div>
         </div>
@@ -27,11 +26,11 @@ const Services = () => {
       <div className="container max-w-[1200px] 2xl:max-w-[1600px] pt-0 flex justify-between md:flex-row flex-col gap-8 2xl:gap-16">
         <ProductAds
           image="/image/services/service-6.jpg"
-          content="Over the years, we've offered marketing support to over 20,000 businesses across diverse industries, resulting in a substantial increase in their revenue."
+          content="Our team of qualified specialists is committed to conquering problems, ensuring your success in the fast-paced company."
         />
         <ProductAds
           image="/image/services/service-7.jpg"
-          content="In 2024, we welcomed 3,000 new customers and assisted them in surpassing their profit targets by expanding into more diverse product areas."
+          content="From 2022 to 2023, our services successfully reached more than 5,000 potential customers."
         />
       </div>
     </>

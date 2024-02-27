@@ -7,22 +7,22 @@ const About = () => {
       <div className="relative w-full min-h-screen">
         <Image
           src="/image/banners/banner-4.jpg"
-          alt="ninomar"
+          alt="corridoy"
           fill
           className="object-cover object-left-top w-full h-full -z-10 brightness-[0.85]"
         />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="w-full sm:w-[500px] flex justify-center items-center flex-col lg:gap-9 gap-4">
-            <h3 className="text-white uppercase text-heading">ninomar</h3>
+            <h3 className="text-white uppercase text-heading">corridoy</h3>
             <p className="leading-6 text-center text-white">
-              Established by a team of seasoned and professional experts, our company remains dedicated to continuously
-              seeking improved solutions for your challenges.
+              At the heart of our mission is a team of skilled professionals devoted to turning obstacles into
+              opportunities, ensuring your success in a continually changing business environment.
             </p>
           </div>
         </div>
       </div>
       <div className="container max-w-[630px] flex-center flex-col gap-8 text-center">
-        <h3 className="text-5xl uppercase text-heading">MORE THAN 10 YEARS OF ESTABLISHMENT</h3>
+        <h3 className="text-5xl uppercase text-heading">More than 7 years of establishment</h3>
         <div>
           <svg height="100" viewBox="0 0 8 100" width="8" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -34,35 +34,30 @@ const About = () => {
           </svg>
         </div>
         <p>
-          Founded in 2013, NINOMAR has thrived over a decade, amassing a team of over 120 seasoned professionals
-          specializing in online marketing and advertising.
-        </p>
-        <p>
-          Our extensive reach has connected us with over 20,000 individual and business customers across Asia and
-          several European countries.
+          Our company's leadership consists of marketing specialists with over two decades of experience, who have
+          provided counsel and overseen countless major marketing campaigns for well-known companies throughout the
+          world.
         </p>
       </div>
       <div className="relative w-full min-h-screen">
         <div className="absolute inset-0">
           <Image
             src="/image/banners/banner-5.jpg"
-            alt="ninomar"
+            alt="corridoy"
             fill
             className="object-cover object-center w-full h-full -z-10 brightness-[0.85]"
           />
         </div>
         <div className={`absolute inset-0 flex justify-center items-center`}>
           <div className="w-full sm:w-[550px] flex justify-center items-center flex-col lg:gap-9 gap-4">
-            <h3 className="text-center text-white uppercase text-heading">Why Opt for Us?</h3>
+            <h3 className="text-center text-white uppercase text-heading">OUR COMMITMENTS</h3>
             <p className="leading-6 text-center text-white">
-              Expert Proficiency: Rely on our seasoned team with a proven track record across diverse industries. <br />
-              Cutting-Edge Strategies: Stay at the forefront with avant-garde solutions for a distinctive brand
-              presence.
+              - Your success is our goal.
               <br />
-              Tailored Client Focus: Enjoy personalized attention and adaptable strategies tailored to your needs.
+              - Maintain the highest standards of quality and professionalism.
               <br />
-              Data-Driven Success: Attain measurable results through our analytical approach, ensuring impactful
-              outcomes. <br />
+              - To develop trust with our clients and partners, we prioritize transparency, honesty, and open
+              communication. <br />
             </p>
           </div>
         </div>
