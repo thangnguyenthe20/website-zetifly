@@ -5,37 +5,38 @@ import classnames from "classnames";
 
 const users = [
   {
-    name: "Alexander Mitchell",
+    name: "Antoine Lefèvre",
     comment:
-      "This has been the best decision we have made for our new business. We constantly are told by our patients that our website is so unique and how much it stands out from other websites. Corridoy captured exactly what we told them we stood for and we couldn’t be any happier with their service!",
+      "Effective and flexible. This marketing company is always adaptable to market innovations, maintaining high performance with advertising strategies.",
     image: "/image/users/user-1.jpg",
     rating: 5,
   },
   {
-    name: "Ava Robinson",
-    comment:
-      "Very professional, on time, communicates in a timely manner and has amazing ideas for the best marketing message.",
+    name: "Yuna Hyun",
+    comment: "Outstanding team! Their dedication to our brand's success is truly commendable.",
     image: "/image/users/user-2.jpg",
     rating: 5,
   },
   {
-    name: "Noah Harrison",
-    comment: "We are so pleased with the professionalism and talent that has been provided!.",
+    name: "Ethan Miller",
+    comment:
+      "All the projects I have worked with them have been extremely effective. They are experienced and very knowledgeable about the tiktok market.",
     image: "/image/users/user-3.jpg",
     rating: 5,
   },
   {
-    name: "Sophia Brooks",
-    comment: `I'm sure this isn't "business as usual", so the extra effort put into this job was truly appreciated. I highly recommend Corridoy and look forward to working with them again in the future!`,
+    name: "Ava Johnson",
+    comment:
+      "Good measurement and reporting capabilities. They not only implement strategies but also provide detailed reporting and clear performance evaluations.",
     image: "/image/users/user-4.jpg",
     rating: 5,
   },
   {
-    name: "Jackson Turner",
+    name: "Mei Ling",
     comment:
-      " I’ve dealt with multiple people with different websites and have never been happy with the results. I would recommend them every time!",
+      "They are very knowledgeable about the market and at the forefront of the trends of the tiktok platform. No collaborative project between us has failed, all have been successful.",
     image: "/image/users/user-5.jpg",
-    rating: 4,
+    rating: 5,
   },
 ];
 
@@ -43,18 +44,14 @@ export default function Home() {
   return (
     <div>
       <div className="relative w-full h-screen">
-        <Image
-          src="/image/banners/banner-0.jpg"
-          alt="corridoy"
-          fill
-          className="object-cover object-top w-full h-full -z-10 brightness-[0.9]"
-        />
+        <video className="brightness-90" autoPlay={true} muted loop>
+          <source src="/image/banners/banner-0.mp4" type="video/mp4"></source>
+        </video>
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="w-full sm:w-[500px] flex justify-center items-center flex-col lg:gap-9 gap-4">
-            <h3 className="text-white uppercase text-heading">corridoy</h3>
+            <h3 className="text-white uppercase text-heading">winxpink</h3>
             <p className="leading-6 text-center text-white">
-              With unwavering confidence, we promise the delivery of highly effective and tailored marketing strategies
-              built specifically for your company's success.
+              Beyond Boundaries, Beyond Trends – Marketing Excellence Defined.
             </p>
           </div>
         </div>
@@ -63,7 +60,7 @@ export default function Home() {
         <div className="absolute inset-0">
           <Image
             src="/image/banners/banner-1.jpg"
-            alt="corridoy"
+            alt="winxpink"
             fill
             className="object-cover object-top w-full h-full -z-10 brightness-[0.9]"
           />
@@ -73,8 +70,9 @@ export default function Home() {
             <div className="flex items-center justify-center w-full h-full px-8 pt-16 lg:px-6 sm:p-16">
               <div className="w-full sm:w-[600px] flex justify-center items-center lg:text-start text-center flex-col gap-9">
                 <p className="px-8 text-2xl text-center text-white sm:px-0">
-                  Count on our unwavering dedication to provide precisely designed marketing solutions that align with
-                  your company's goals.
+                  Empower your brand's journey with our dynamic marketing services. From strategic Facebook campaigns to
+                  captivating TikTok content and impactful YouTube strategies, we specialize in crafting a digital
+                  presence that resonates.
                 </p>
                 <Link href="/our-services" className="block text-white tracking-[1px] w-fit pb-2">
                   <button className="btn btn-primary w-fit">OUR SERVICES</button>
@@ -88,7 +86,7 @@ export default function Home() {
         <div className="absolute inset-0">
           <Image
             src="/image/banners/banner-2.jpg"
-            alt="corridoy"
+            alt="winxpink"
             fill
             className="object-cover object-center w-full h-full -z-10 brightness-[0.9]"
           />
@@ -98,8 +96,8 @@ export default function Home() {
             <div className="flex items-center justify-center w-full h-full px-8 pt-16 lg:px-6 sm:p-16">
               <div className="w-full sm:w-[600px] flex justify-center items-center lg:text-start text-center flex-col gap-9">
                 <p className="px-8 text-2xl text-center text-white sm:px-0">
-                  At the core of our purpose is a team of competent experts dedicated to transforming hurdles into
-                  opportunities, ensuring your success in a rapidly changing business environment.
+                  Decade-Long Journey: Pioneering Marketing Solutions Since 2017. Our Commitment, Your Success – A
+                  Decade of Expertise in Marketing Innovation.
                 </p>
                 <Link href="/about" className="block text-white tracking-[1px] w-fit pb-2">
                   <button className="btn btn-primary w-fit">ABOUT US</button>

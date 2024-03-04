@@ -47,8 +47,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 # casami
 
-# corridoy
+# winxpink
 
-# website-corridoy
+# website-winxpink
 
-# website-corridoy
+# website-winxpink

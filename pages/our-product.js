@@ -5,68 +5,72 @@ import { v4 } from "uuid";
 
 const products = [
   {
-    name: "HolySmile Teeth Color Changing Serum",
+    name: "HolySmile Clinically Proven Teeth Whitening Serum",
     image: "/image/products/product-1.jpg",
-    desc: ["Conceal yellow tones in your teeth to improve and brighten your smile."],
+    desc: [
+      "Conceals the yellow tones in your teeth to improve and enhance the whiteness of your smile.",
+      "40ml",
+      "From the U.S.",
+    ],
   },
   {
-    name: "Mushroom Head Air CC Cream Anti Pore Cushion",
+    name: "Mushroom Head Air Cushion CC Cream",
     image: "/image/products/product-2.jpg",
     desc: [
-      "Perfect makeup for 16 hours, with excellent oil control, anti-greasy characteristics, hydrating, and the ability to fix uneven skin tone.",
+      "This highly blendable and buildable formula goes on smooth as silk, providing medium-to-full coverage and weightless all-day wear.",
+      "20g",
+      "From the U.S.",
     ],
   },
   {
-    name: "Charmante Perfect Hand Brighten Moisturizing Serum",
+    name: "Charmante Hand Skin Serum",
     image: "/image/products/product-3.jpg",
-    desc: [
-      "Protect hands from environmental and household irritants, smooth the skin, and provide a refreshing, revitalizing experience.",
-    ],
+    desc: ["Help protect hands from dryness, moisturize, nourish and soothe.", "40ml", "From the U.S."],
   },
   {
-    name: "KASOMO Hair ReGrowth and Smooth Spray",
-    image: "/image/products/product-4.jpg",
-    desc: [
-      "Repairs the scalp and reactivates the cells, resulting in denser hair growth. It is a one-stop solution for all your hair growth issues.",
-    ],
+    name: "Kasomo Hair Growth Spray",
+    image: "/image/products/product-4.png",
+    desc: ["Promotes hair growth, prevents hair loss and addresses baldness effectively.", "75ml", "From the U.S."],
   },
   {
-    name: "KASOMO Nourishing and Smooth Mask For Hair",
+    name: "Kasomo Hair Mask",
     image: "/image/products/product-5.jpg",
     desc: [
-      "Perfect remedy for damaged, coarse hair; assist restore your smoothness with just a few therapeutic drops.",
+      "Discover a vegan hair mask for achieving healthy, silky hair. Say goodbye to frizz, dryness and tangles in seconds.",
+      "From the U.S.",
     ],
   },
   {
-    name: "KASOMO Beard - Brow Nourishing Oil",
+    name: "Kasomo Beard And Eyebrow Growth Serum",
     image: "/image/products/product-6.jpg",
-    desc: ["Best Beard Care for Moisturizing and Softening. Care your beard to the fullest."],
+    desc: [
+      "Revitalize beard and eyebrow growth; enhance thickness and length; fortify for stronger, denser results; diminish thinning and breakage in eyebrows.",
+      "From the U.S.",
+    ],
   },
   {
-    name: "KASOMO Anti Hair Loss Shampoo",
+    name: "Kasomo Shampoo For Hair Loss And Dandruff",
     image: "/image/products/product-7.jpg",
-    desc: [
-      "Gently cleanses the hair and scalp, eliminating excess follicle-clogging sebum to help maintain an optimal scalp environment for healthy-looking hair.",
-    ],
+    desc: ["Effective in preventing hair loss and eliminating dandruff within 7 days of usage.", "From the U.S."],
   },
   {
-    name: "Morri Skin Peeling Gel",
+    name: "Morri Orange Peeling Lotion",
     image: "/image/products/product-8.jpg",
-    desc: [
-      "Regular use exfoliates and maintains a cleaner, more even complexion while also moisturizing and smoothing the skin.",
-    ],
+    desc: ["Eliminate dead skin cells and dark spots, promoting smoother and brighter skin complexion.", "100ml"],
   },
   {
-    name: "Trezzen Darken Bar Soap",
+    name: "Trezzen Hair Darkening Shampoo Bar",
     image: "/image/products/product-9.jpg",
-    desc: ["Reduces grey with every wash while also thickening hair up to 85%"],
+    desc: [
+      "Revitalize your natural hair color with our daily shampoo, effectively transforming gray or white hair into a youthful, vibrant dark shade.",
+      "60g",
+      "From the U.S.",
+    ],
   },
   {
-    name: "Berari Vein Repair Cream",
+    name: "Berari Vein Care Fading Cream",
     image: "/image/products/product-10.jpg",
-    desc: [
-      "Reduce spider veins and fractured blood vessels rapidly, strengthen veins, and improve vein wall function to help fade unattractive spider veins.",
-    ],
+    desc: ["Alleviate varicose veins and spider veins while enhancing blood circulation.", "30g", "From the U.S."],
   },
 ];
 
