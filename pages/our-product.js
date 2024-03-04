@@ -5,65 +5,49 @@ import { v4 } from "uuid";
 
 const products = [
   {
-    name: "KASOMO Stimulating Beard & Eyebrow Growth Serum",
-    image: "/image/products/product-1.webp",
-    desc: ["Regrow beards & eyebrows fast in weeks, improve patchy, short beards, and eyebrows."],
+    name: "Enhancing Bar Soap with Trezzen Hair Color",
+    image: "/image/products/product-1.jpg",
+    desc: [
+      "Hair blackening soap makes hair shiny and effectively prevents dandruff, hair loss, and itching.",
+      "60g",
+      "Made in USA",
+    ],
   },
   {
-    name: "KASOMO hair loss, itchy and dandruff shampoo",
-    image: "/image/products/product-2.webp",
-    desc: ["Reduce hair loss, breakage problems and prevent dandruff back."],
+    name: "Charmante brightening and softening serum for hands",
+    image: "/image/products/product-2.jpg",
+    desc: ["Serum heals chapped skin, softens and moisturizes hands, and brightens hands.", "40ml", "Made in USA"],
   },
   {
-    name: "Morri Glow Renewal Exfoliating Gel",
+    name: "KASOMO Smooth and ReGrowth Hair Spray",
     image: "/image/products/product-3.jpg",
-    desc: [
-      "Frequent use gently exfoliates, promoting a clearer, even complexion, while simultaneously hydrating and smoothing the skin.",
-    ],
+    desc: ["Hair spray restores the scalp and reactivates cells, helping hair grow thicker.", "75ml", "Made in USA"],
   },
   {
-    name: "Trezzen Grey Hair Removal Bar Soap",
-    image: "/image/products/product-4.jpg",
-    desc: ["Diminishes grey tones with each wash while simultaneously boosting hair thickness by up to 98%."],
+    name: "KASOMO Beard - Brow Nourishing Oil",
+    image: "/image/products/product-4.png",
+    desc: ["Best Beard Care for Moisturizing and Softening. Care your beard to the fullest.", "30ml", "Made in USA"],
   },
   {
-    name: "Berari Vein Recovery Balm",
+    name: "Morri body exfoliating lotion",
     image: "/image/products/product-5.jpg",
-    desc: [
-      "Swiftly diminish spider veins and broken blood vessels, fortify veins, and enhance vein wall functionality for a noticeable reduction in unsightly spider veins.",
-    ],
+    desc: ["The cream removes blemishes, dullness, blemishes and brightens your skin.", "100ml", "Made in USA"],
   },
   {
-    name: "HolySmile Teeth Whitening",
+    name: "Melasma treatment cream",
     image: "/image/products/product-6.jpg",
-    desc: ["Eliminate yellow undertones in your teeth, unveiling a brighter, enhanced smile."],
-  },
-  {
-    name: "Air Cushion CC Cream | Mushroom Head Foundation",
-    image: "/image/products/product-7.jpg",
-    desc: ["CC Cream Foundation Full Coverage, Even Skin Tone, Suitable for All Skin Types."],
-  },
-  {
-    name: "Charmante Hands Hydration Gel",
-    image: "/image/products/product-8.png",
-    desc: ["Defend your hands against environmental and household stresses, leaving skin smooth and refreshed."],
-  },
-  {
-    name: "KASOMO Boosting Hair And Eyebrow Growth Serum",
-    image: "/image/products/product-9.webp",
-    desc: ["Revitalize your scalp, repair damage, and trigger cell renewal for denser hair and eyebrow growth."],
-  },
-  {
-    name: "KASOMO Nourishing Hair Repair Mask",
-    image: "/image/products/product-10.jpg",
-    desc: ["An ideal therapy for damaged, unruly hair, effortlessly restore smoothness."],
+    desc: [
+      "Pro-retinol soothes irritation as the moisturizer profoundly hydrates and reduces redness, pigmentation, and dark spots.",
+      "30g",
+      "Made in USA",
+    ],
   },
 ];
 
 const OurProduct = () => {
   return (
     <div className="px-3 py-6 lg:px-16 sm:px-6 sm:py-8 lg:py-10">
-      <div className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 md:gap-4 xl:gap-6">
+      <div className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 md:gap-4 xl:gap-6">
         {products.map(({ name, image, desc }) => (
           <div key={v4()} className="flex flex-col overflow-hidden rounded shadow">
             <img src={image} alt="product" className="aspect-square"></img>

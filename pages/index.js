@@ -5,34 +5,37 @@ import classnames from "classnames";
 
 const users = [
   {
-    name: "Janis Jarans",
+    name: "Sophia Phan",
     comment:
-      "I have been cooperating with PEPERIA for 3 months. Last quarter's revenue increased by 30%. Hope to grow stronger in the near future.",
+      "Their individualized approach, which constantly adjusts to our particular demands, is impressive. They are an exceptional option because of their flexibility and first-rate customer service.",
     image: "/image/users/user-1.jpg",
     rating: 5,
   },
   {
-    name: "Serge Victor",
+    name: "Amelia Brown",
     comment:
-      "Our business sells cosmetics. Business results are very positive thanks to the Marketing strategy Peperia provides.",
+      "Their marketing offering is revolutionary. The creative approaches they offer have produced outstanding results.",
     image: "/image/users/user-2.jpg",
     rating: 5,
   },
   {
-    name: "Elliot Marshall",
-    comment: "Thanks for your Marketing Plan. It is very useful for our business.",
+    name: "Scarlett Wilson",
+    comment:
+      "Both efficient and adaptable. This marketing business consistently adjusts to changes in the market while retaining great advertising performance.",
     image: "/image/users/user-3.jpg",
     rating: 5,
   },
   {
-    name: "Jacques van der Merwe",
-    comment: "I think any business should cooperate with PEPERIA. Their staff is very professional.",
+    name: "Lucas Martinez",
+    comment:
+      "They are at the forefront of the tiktok platform's trends and possess extensive market expertise. Our joint projects have all been successful; none have failed.",
     image: "/image/users/user-4.jpg",
     rating: 5,
   },
   {
-    name: "Peter John",
-    comment: "I will recommend your company to everyone I know.",
+    name: "Henry Wilson",
+    comment:
+      "The team's professionalism and in-depth knowledge of the business have been crucial in developing an effective marketing plan. They have a thorough understanding of our industry.",
     image: "/image/users/user-5.jpg",
     rating: 5,
   },
@@ -42,17 +45,15 @@ export default function Home() {
   return (
     <div>
       <div className="relative w-full h-screen">
-        <Image
-          src="/image/banners/banner-0.jpg"
-          alt="peperia"
-          fill
-          className="object-cover object-top w-full h-full -z-10 brightness-[0.9]"
-        />
+        <video className="brightness-90" autoPlay={true} muted loop>
+          <source src="/image/banners/banner-0.mp4" type="video/mp4"></source>
+        </video>
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="w-full sm:w-[500px] flex justify-center items-center flex-col lg:gap-9 gap-4">
-            <h3 className="text-white uppercase text-heading">peperia</h3>
+            <h3 className="text-white uppercase text-heading">verynie</h3>
             <p className="leading-6 text-center text-white">
-              We are an Agency specializing in providing Digital Marketing solutions.
+              Marketing transcends mere product sales; it encompasses the art of meticulously crafting authentic
+              customer value rather than solely fixating on inventive methods of distributing goods.
             </p>
           </div>
         </div>
@@ -61,7 +62,7 @@ export default function Home() {
         <div className="absolute inset-0">
           <Image
             src="/image/banners/banner-1.jpg"
-            alt="peperia"
+            alt="verynie"
             fill
             className="object-cover object-top w-full h-full -z-10 brightness-[0.9]"
           />
@@ -71,8 +72,7 @@ export default function Home() {
             <div className="flex items-center justify-center w-full h-full px-8 pt-16 lg:px-6 sm:p-16">
               <div className="w-full sm:w-[600px] flex justify-center items-center lg:text-start text-center flex-col gap-9">
                 <p className="px-8 text-2xl text-center text-white sm:px-0">
-                  Digital Marketing is a new marketing trend. We are here to provide you with the best solutions to
-                  increase sales and optimize costs.
+                  Discover the needs hidden behind the needs that others do not recognize.
                 </p>
                 <Link href="/our-services" className="block text-white tracking-[1px] w-fit pb-2">
                   <button className="btn btn-primary w-fit">OUR SERVICES</button>
@@ -86,7 +86,7 @@ export default function Home() {
         <div className="absolute inset-0">
           <Image
             src="/image/banners/banner-2.jpg"
-            alt="peperia"
+            alt="verynie"
             fill
             className="object-cover object-center w-full h-full -z-10 brightness-[0.9]"
           />
@@ -96,7 +96,7 @@ export default function Home() {
             <div className="flex items-center justify-center w-full h-full px-8 pt-16 lg:px-6 sm:p-16">
               <div className="w-full sm:w-[600px] flex justify-center items-center lg:text-start text-center flex-col gap-9">
                 <p className="px-8 text-2xl text-center text-white sm:px-0">
-                  Our staff includes experts with more than 10 years of experience in this field.
+                  Unity is strength... when there is teamwork and collaboration, wonderful things can be achieved.
                 </p>
                 <Link href="/about" className="block text-white tracking-[1px] w-fit pb-2">
                   <button className="btn btn-primary w-fit">ABOUT US</button>

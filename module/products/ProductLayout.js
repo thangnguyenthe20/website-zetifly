@@ -3,23 +3,15 @@ import Image from "next/image";
 const products = [
   {
     src: "/image/services/service-1.jpg",
-    name: "Strategic Planning",
+    name: "Facebook Marketing",
   },
   {
     src: "/image/services/service-2.jpg",
-    name: "Content Marketing",
+    name: "Google Marketing",
   },
   {
     src: "/image/services/service-3.jpg",
-    name: "Social network advertising",
-  },
-  {
-    src: "/image/services/service-4.jpg",
-    name: "Search Engine Optimization (SEO)",
-  },
-  {
-    src: "/image/services/service-5.jpg",
-    name: "Google Advertising",
+    name: "Tiktok Marketing",
   },
 ];
 
