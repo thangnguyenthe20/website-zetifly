@@ -5,36 +5,36 @@ import classnames from "classnames";
 
 const users = [
   {
-    name: "Antoine Lefèvre",
-    comment:
-      "Effective and flexible. This marketing company is always adaptable to market innovations, maintaining high performance with advertising strategies.",
+    name: "David Dunham",
+    comment: "The team was very friendly and helpful, and they went above and beyond to make sure I was satisfied.",
     image: "/image/users/user-1.jpg",
     rating: 5,
   },
   {
-    name: "Yuna Hyun",
-    comment: "Outstanding team! Their dedication to our brand's success is truly commendable.",
+    name: "Michael Malone",
+    comment:
+      "I had an amazing experience with this company! The marketing service was outstanding, and the results exceeded my expectations.",
     image: "/image/users/user-2.jpg",
     rating: 5,
   },
   {
-    name: "Ethan Miller",
+    name: "Christine Weithoner",
     comment:
-      "All the projects I have worked with them have been extremely effective. They are experienced and very knowledgeable about the tiktok market.",
+      "After trying several other companies, I finally found the perfect fit with this one. The Glamquester is everything I was looking for, and the marketing service is top-notch.",
     image: "/image/users/user-3.jpg",
     rating: 5,
   },
   {
-    name: "Ava Johnson",
+    name: "Kathleen Macaulay",
     comment:
-      "Good measurement and reporting capabilities. They not only implement strategies but also provide detailed reporting and clear performance evaluations.",
+      "We are so pleased with the professionalism and talent that has been provided! They are easy to work with and knew what our goal was from the beginning. They did a fabulous job with the final outcome.",
     image: "/image/users/user-4.jpg",
     rating: 5,
   },
   {
-    name: "Mei Ling",
+    name: "Suzanne Richards",
     comment:
-      "They are very knowledgeable about the market and at the forefront of the trends of the tiktok platform. No collaborative project between us has failed, all have been successful.",
+      "Thank you to the team for a great revamped website! The team effort is amazing, and the end result is fabulous. I am so pleased with my modernized website and the resolution of my e-mail problems.",
     image: "/image/users/user-5.jpg",
     rating: 5,
   },
@@ -44,14 +44,18 @@ export default function Home() {
   return (
     <div>
       <div className="relative w-full h-screen">
-        <video className="brightness-90" autoPlay={true} muted loop>
-          <source src="/image/banners/banner-0.mp4" type="video/mp4"></source>
-        </video>
+        <Image
+          src="/image/banners/banner-0.jpg"
+          alt="glamquester"
+          fill
+          className="object-cover object-top w-full h-full -z-10 brightness-[0.9]"
+        />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="w-full sm:w-[500px] flex justify-center items-center flex-col lg:gap-9 gap-4">
-            <h3 className="text-white uppercase text-heading">winxpink</h3>
+            <h3 className="text-white uppercase text-heading">glamquester</h3>
             <p className="leading-6 text-center text-white">
-              Beyond Boundaries, Beyond Trends – Marketing Excellence Defined.
+              With unshakeable trust, we focus on the core problem your business solves and put out lots of content and
+              enthusiasm and ideas about how to solve that problem.
             </p>
           </div>
         </div>
@@ -60,7 +64,7 @@ export default function Home() {
         <div className="absolute inset-0">
           <Image
             src="/image/banners/banner-1.jpg"
-            alt="winxpink"
+            alt="glamquester"
             fill
             className="object-cover object-top w-full h-full -z-10 brightness-[0.9]"
           />
@@ -70,9 +74,8 @@ export default function Home() {
             <div className="flex items-center justify-center w-full h-full px-8 pt-16 lg:px-6 sm:p-16">
               <div className="w-full sm:w-[600px] flex justify-center items-center lg:text-start text-center flex-col gap-9">
                 <p className="px-8 text-2xl text-center text-white sm:px-0">
-                  Empower your brand's journey with our dynamic marketing services. From strategic Facebook campaigns to
-                  captivating TikTok content and impactful YouTube strategies, we specialize in crafting a digital
-                  presence that resonates.
+                  We understand that every business is unique, so our strategies are tailored to meet your specific
+                  needs. Whether you're a start-up or an established brand, we're here to help you grow.
                 </p>
                 <Link href="/our-services" className="block text-white tracking-[1px] w-fit pb-2">
                   <button className="btn btn-primary w-fit">OUR SERVICES</button>
@@ -86,7 +89,7 @@ export default function Home() {
         <div className="absolute inset-0">
           <Image
             src="/image/banners/banner-2.jpg"
-            alt="winxpink"
+            alt="glamquester"
             fill
             className="object-cover object-center w-full h-full -z-10 brightness-[0.9]"
           />
@@ -96,8 +99,8 @@ export default function Home() {
             <div className="flex items-center justify-center w-full h-full px-8 pt-16 lg:px-6 sm:p-16">
               <div className="w-full sm:w-[600px] flex justify-center items-center lg:text-start text-center flex-col gap-9">
                 <p className="px-8 text-2xl text-center text-white sm:px-0">
-                  Decade-Long Journey: Pioneering Marketing Solutions Since 2017. Our Commitment, Your Success – A
-                  Decade of Expertise in Marketing Innovation.
+                  Our marketing strategies are proven to drive growth and increase ROI. Let us catapult your brand
+                  visibility and make your business the talk of the town.
                 </p>
                 <Link href="/about" className="block text-white tracking-[1px] w-fit pb-2">
                   <button className="btn btn-primary w-fit">ABOUT US</button>
