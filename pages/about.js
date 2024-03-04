@@ -6,23 +6,22 @@ const About = () => {
     <>
       <div className="relative w-full min-h-screen">
         <Image
-          src="/image/banners/banner-4.jpg"
-          alt="verynie"
+          src="/image/banners/banner-4.png"
+          alt="tunlife"
           fill
           className="object-cover object-left-top w-full h-full -z-10 brightness-[0.85]"
         />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="w-full sm:w-[500px] flex justify-center items-center flex-col lg:gap-9 gap-4">
-            <h3 className="text-white uppercase text-heading">verynie</h3>
+            <h3 className="text-white uppercase text-heading">tunlife</h3>
             <p className="leading-6 text-center text-white">
-              Personal dedication to a collective endeavor is what drives the success of a team, business, community,
-              and civilization.
+              Significant achievements in business stem from teamwork, rather than individual endeavor.
             </p>
           </div>
         </div>
       </div>
       <div className="container max-w-[630px] flex-center flex-col gap-8 text-center">
-        <h3 className="text-5xl uppercase text-heading">MORE THAN 6 YEARS OF ESTABLISHMENT</h3>
+        <h3 className="text-5xl uppercase text-heading">With more than 7 years since its inception...</h3>
         <div>
           <svg height="100" viewBox="0 0 8 100" width="8" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -34,35 +33,35 @@ const About = () => {
           </svg>
         </div>
         <p>
-          VERYNIE was established in 2018. After 6 years of operation, our company now has more than 120 experienced
-          employees in the field of online marketing and advertising.
+          Established in 2017, TUNLIFE has experienced substantial growth in the last 7 years, now comprising a team of
+          over 120 seasoned professionals with expertise in marketing and online advertising.
         </p>
         <p>
-          We have approached and cooperated with more than 19,000 individual and business customers in Cambodia, Asia,
-          and some countries in Europe.
+          Through our extensive efforts, we've forged partnerships with more than 25,000 individual and corporate
+          clients spanning Cambodia, various regions in Asia and select European countries.
         </p>
       </div>
       <div className="relative w-full min-h-screen">
         <div className="absolute inset-0">
           <Image
-            src="/image/banners/banner-5.jpg"
-            alt="verynie"
+            src="/image/banners/banner-5.png"
+            alt="tunlife"
             fill
             className="object-cover object-center w-full h-full -z-10 brightness-[0.85]"
           />
         </div>
         <div className={`absolute inset-0 flex justify-center items-center`}>
-          <div className="w-full sm:w-[550px] flex justify-center items-center flex-col lg:gap-9 gap-4">
-            <h3 className="text-center text-white uppercase text-heading">WHY SHOULD YOU CHOOSE US?</h3>
+          <div className="w-full sm:w-[500px] flex justify-center items-center flex-col lg:gap-9 gap-4">
+            <h3 className="text-center text-white uppercase text-heading">What Sets Us Apart?</h3>
             <p className="leading-6 text-center text-white">
-              <b>Proven Experts:</b> Put your trust in our knowledgeable staff with a proven track record across a range
-              of sectors.
+              Choose our unique and impactful marketing strategy.
               <br />
-              <b>Creative Solutions:</b> Maintain a competitive edge with cutting-edge tactics for a distinctive brand.
+              Our team, known for its creativity and adaptability, focuses on delivering tangible value to your
+              business.
               <br />
-              <b>Client-Centered:</b> Receive individualized care and adaptable tactics.
+              Take advantage of our proven track record, wide range of marketing solutions, and steadfast dedication to
+              your success.
               <br />
-              <b>Measurable Outcomes:</b> Use our data-driven strategy to attain observable results.
             </p>
           </div>
         </div>

@@ -7,17 +7,17 @@ const Services = () => {
     <>
       <div className="relative w-full min-h-screen">
         <Image
-          src="/image/banners/banner-3.jpg"
-          alt="verynie"
+          src="/image/banners/banner-3.png"
+          alt="tunlife"
           fill
           className="object-cover object-center w-full h-full -z-10 brightness-[0.85]"
         />
         <div className={`absolute inset-0 flex justify-center items-center`}>
           <div className="w-full sm:w-[550px] flex justify-center items-center flex-col lg:gap-9 gap-4">
-            <h3 className="text-white uppercase text-heading">verynie</h3>
+            <h3 className="text-white uppercase text-heading">tunlife</h3>
             <p className="leading-6 text-center text-white">
-              We'll give you the necessary social media marketing solutions: Tiktok Marketing; Facebook Marketing;
-              Google Marketing
+              We provide customized social media marketing solutions designed specifically for your requirements,
+              encompassing Video Marketing, Mobile Marketing and Content Marketing.
             </p>
           </div>
         </div>
@@ -25,12 +25,12 @@ const Services = () => {
       <ProductLayout />
       <div className="container max-w-[1200px] 2xl:max-w-[1600px] pt-0 flex justify-between md:flex-row flex-col gap-8 2xl:gap-16">
         <ProductAds
-          image="/image/services/service-4.jpg"
-          content="Over the years, we have helped over 19,000 companies across a wide range of industries by offering marketing support to help them greatly boost their revenue."
+          image="/image/services/service-4.png"
+          content="Throughout recent years, we've aided over 23,000 businesses across various industries in significantly boosting their revenue."
         />
         <ProductAds
-          image="/image/services/service-5.jpg"
-          content="In 2023, we helped them surpass their target profitability and brought on 4,000 additional clients."
+          image="/image/services/service-5.png"
+          content="In 2023, we achieved a milestone by acquiring an additional 6.000 new clients and assisting them in attaining"
         />
       </div>
     </>

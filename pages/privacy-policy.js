@@ -3,13 +3,13 @@ import React from "react";
 const TermsOfUse = () => {
   return (
     <div className="terms-of-use">
-      <p>verynie Privacy Policy</p>
+      <p>tunlife Privacy Policy</p>
       <p>Last updated: February 17, 2022</p>
       <br />
       <p>
-        This Privacy Policy sets out how PerSé Beauty Inc. doing business as verynie (“verynie”, “we”, “our” or “us”)
+        This Privacy Policy sets out how PerSé Beauty Inc. doing business as tunlife (“tunlife”, “we”, “our” or “us”)
         uses and protects any information that you, the user, provide when you visit the website,
-        https://www.fegbeauty.com (“Website”), or use our verynie mobile application (“App”) (collectively, “Service”).
+        https://www.fegbeauty.com (“Website”), or use our tunlife mobile application (“App”) (collectively, “Service”).
         Except as otherwise provided herein, this Privacy Policy applies to all services offered by us through our
         Service. Except as otherwise provided herein, this Privacy Policy applies only to information collected through
         our Service and not to information collected offline.
@@ -37,7 +37,7 @@ const TermsOfUse = () => {
         Information you provide to us directly. We may collect personal information, such as your name, phone number,
         mailing address, location, payment information, and e-mail address when you register for our Service, take our
         personalized haircare survey, order products, or otherwise communicate with us. We may also collect any
-        communications between you and verynie and any other information you provide to verynie.
+        communications between you and tunlife and any other information you provide to tunlife.
       </p>
       <p>
         Data collected through the use of the Service. We collect information about how you use the Service and your
@@ -145,7 +145,7 @@ const TermsOfUse = () => {
         your inquiry;
       </p>
       <p>
-        Creation of a verynie account: Your Personal Information will be retained until you require us to delete it or
+        Creation of a tunlife account: Your Personal Information will be retained until you require us to delete it or
         after a reasonable period of inactivity;
       </p>
       <p>

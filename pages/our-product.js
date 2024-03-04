@@ -5,41 +5,79 @@ import { v4 } from "uuid";
 
 const products = [
   {
-    name: "Enhancing Bar Soap with Trezzen Hair Color",
+    name: "HolySmile Teeth Color Corrector",
     image: "/image/products/product-1.jpg",
     desc: [
-      "Hair blackening soap makes hair shiny and effectively prevents dandruff, hair loss, and itching.",
-      "60g",
-      "Made in USA",
+      "Transform your smile instantly with our teeth whitening treatment, reducing the visibility of yellow stains for a brighter appearance.",
+      "40ml",
+      "From the U.S.",
     ],
   },
   {
-    name: "Charmante brightening and softening serum for hands",
+    name: "CC Cream -Mushroom Head Air Cushion",
     image: "/image/products/product-2.jpg",
-    desc: ["Serum heals chapped skin, softens and moisturizes hands, and brightens hands.", "40ml", "Made in USA"],
+    desc: [
+      "Elevate your foundation application to achieve a weightless, effortlessly natural look.",
+      "20g",
+      "From the U.S.",
+    ],
   },
   {
-    name: "KASOMO Smooth and ReGrowth Hair Spray",
+    name: "Charmante Hand Skin Serum",
     image: "/image/products/product-3.jpg",
-    desc: ["Hair spray restores the scalp and reactivates cells, helping hair grow thicker.", "75ml", "Made in USA"],
+    desc: ["Reduce wrinkles, deliver immediate moisture and effectively calm the skin.", "40ml", "From the U.S."],
   },
   {
-    name: "KASOMO Beard - Brow Nourishing Oil",
+    name: "Kasomo Hair Growth Spray",
     image: "/image/products/product-4.png",
-    desc: ["Best Beard Care for Moisturizing and Softening. Care your beard to the fullest.", "30ml", "Made in USA"],
+    desc: ["Stimulates hair growth, combats hair loss and effectively tackles baldness.", "75ml", "From the U.S."],
   },
   {
-    name: "Morri body exfoliating lotion",
-    image: "/image/products/product-5.jpg",
-    desc: ["The cream removes blemishes, dullness, blemishes and brightens your skin.", "100ml", "Made in USA"],
+    name: "Kasomo Hair Mask",
+    image: "/image/products/product-5.png",
+    desc: [
+      "Uncover the secret to lush, silky hair with our vegan hair mask. Bid farewell to frizz, dryness, and knots in mere seconds.",
+      "From the U.S.",
+    ],
   },
   {
-    name: "Melasma treatment cream",
+    name: "Kasomo Beard And Eyebrow Growth Serum",
     image: "/image/products/product-6.jpg",
     desc: [
-      "Pro-retinol soothes irritation as the moisturizer profoundly hydrates and reduces redness, pigmentation, and dark spots.",
+      "Revive beard and eyebrow growth, amplifying thickness and length while strengthening for denser, more robust results, and reducing thinning and breakage in eyebrows.",
+      "From the U.S.",
+    ],
+  },
+  {
+    name: "Kasomo Shampoo For Hair Loss And Dandruff",
+    image: "/image/products/product-7.jpg",
+    desc: ["Proven to halt hair loss and eradicate dandruff within just one week of consistent use.", "From the U.S."],
+  },
+  {
+    name: "Morri Peeling Lotion",
+    image: "/image/products/product-8.jpg",
+    desc: [
+      "Banish dead skin cells and dark spots to reveal a smoother, brighter complexion.",
+      "100ml",
+      "From the U.S.",
+    ],
+  },
+  {
+    name: "Trezzen Shampoo Bar Soap (Upgrade version)",
+    image: "/image/products/product-9.jpg",
+    desc: [
+      "Restore your natural hair color with our daily shampoo, effectively turning gray or white hair into a youthful, vibrant dark hue.",
+      "60g",
+      "From the U.S.",
+    ],
+  },
+  {
+    name: "Berari Vein Recovery Balm",
+    image: "/image/products/product-10.jpg",
+    desc: [
+      "Quickly reduce the appearance of spider veins and broken blood vessels, strengthen veins, and improve vein wall function for a noticeable decrease in unsightly spider veins.",
       "30g",
-      "Made in USA",
+      "From the U.S.",
     ],
   },
 ];
@@ -47,7 +85,7 @@ const products = [
 const OurProduct = () => {
   return (
     <div className="px-3 py-6 lg:px-16 sm:px-6 sm:py-8 lg:py-10">
-      <div className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 md:gap-4 xl:gap-6">
+      <div className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 md:gap-4 xl:gap-6">
         {products.map(({ name, image, desc }) => (
           <div key={v4()} className="flex flex-col overflow-hidden rounded shadow">
             <img src={image} alt="product" className="aspect-square"></img>
