@@ -15,8 +15,8 @@ const Footer = () => {
         <p className="text-xl leading-8">
           We are here to listen and help. If you have any questions, problems or requests regarding our products or
           brands, please contact us via email: <br />
-          <Link className="text-blue-500 underline" href="mailto:hello.glamquester@gmail.com" target="_blank">
-            hello.glamquester@gmail.com
+          <Link className="text-blue-500 underline" href="mailto:support.peperia@gmail.com" target="_blank">
+            support.peperia@gmail.com
           </Link>
         </p>
       </Modal>
@@ -49,8 +49,8 @@ const Footer = () => {
         <h3 className="mb-1.5 text-lg font-bold">EASY RETURN & EXCHANGE PROCESS</h3>
         <p>
           Firstly, email (So We Can Send You Your Receipt) customer care at{" "}
-          <Link className="text-blue-500 underline" href="mailto:hello.glamquester@gmail.com" target="_blank">
-            hello.glamquester@gmail.com
+          <Link className="text-blue-500 underline" href="mailto:support.peperia@gmail.com" target="_blank">
+            support.peperia@gmail.com
           </Link>{" "}
           or call our support team. Our team is available to talk to you 9am-5pm, Monday to Friday! Include in your
           initial request how you wish to proceed (return or exchange) and we will walk you through the process of which
@@ -103,16 +103,18 @@ const Footer = () => {
               Refund policy
             </span>
             <div className="flex justify-center col-span-3 gap-4 mt-1 lg:justify-start">
-              <Link target="_blank" href="https://morri-skin-beauty.myshopify.com">
-                <img src="/image/icon/global.svg" alt="" width={30} height={30} />
+              <Link target="_blank" href="https://www.facebook.com/genuinekasomo">
+                <img src="/image/icon/facebook.svg" alt="" width={30} height={30} />
+              </Link>
+              <Link target="_blank" href="https://www.tiktok.com/@kasomotherapy?lang=vi-VN">
+                <img src="/image/icon/tiktok.svg" alt="" width={30} height={30} />
               </Link>
             </div>
           </div>
         </div>
         <div className="flex-col flex-1 w-full gap-5 px-10 bg-black sm:px-28 lg:w-1/2 lg:py-0 py-14 flex-center">
           <p className="lg:w-[100%] text-heading text-2xl text-white text-center mb-1">
-            Founded 2018, our company has a rich history marked by continuous growth, innovation, and a commitment to
-            excellence.
+            We are proud to be the first Agency to commit to helping customers GROW REVENUE THREE TIMES.
           </p>
           <Link href="/about" className="block tracking-[1px] w-fit pb-2">
             <button className="btn btn-white w-fit">ABOUT US</button>

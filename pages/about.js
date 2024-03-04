@@ -7,22 +7,22 @@ const About = () => {
       <div className="relative w-full min-h-screen">
         <Image
           src="/image/banners/banner-4.jpg"
-          alt="glamquester"
+          alt="peperia"
           fill
           className="object-cover object-left-top w-full h-full -z-10 brightness-[0.85]"
         />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="w-full sm:w-[500px] flex justify-center items-center flex-col lg:gap-9 gap-4">
-            <h3 className="text-white uppercase text-heading">glamquester</h3>
+            <h3 className="text-white uppercase text-heading">peperia</h3>
             <p className="leading-6 text-center text-white">
-              Our success is your success. Join us and let's reach for the stars together! Let's redefine the limits of
-              what's possible together
+              Our promise is simple: deliver highly effective marketing strategies, uniquely tailored for your company's
+              success.
             </p>
           </div>
         </div>
       </div>
       <div className="container max-w-[630px] flex-center flex-col gap-8 text-center">
-        <h3 className="text-5xl uppercase text-heading">MORE THAN 5 YEARS OF ESTABLISHMENT</h3>
+        <h3 className="text-5xl uppercase text-heading">DIGITAL APPLICATIONS HELP INCREASE REVENUE THREE TIMES</h3>
         <div>
           <svg height="100" viewBox="0 0 8 100" width="8" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -34,34 +34,31 @@ const About = () => {
           </svg>
         </div>
         <p>
-          Celebrating a milestone! For more than 5 years, our relentless drive in the marketing industry has paid off.
-          With a team of over 100 innovative and dedicated employees, we've soared to unimaginable heights. Your
-          commitment and trust have been key to our success. We look forward to reaching new milestones together.
+          We guarantee to advise on the most detailed and feasible solutions. Our team of experts has more than 10 years
+          of experience, continuously accompanying thousands of companies over the years.
         </p>
-        <p>
-          Success doesn't happen overnight, it's the result of consistent efforts, unyielding perseverance, and a vision
-          that never blurs. Here’s to a future filled with continuous growth, success, and innovation.
-        </p>
+        <p>We are proud to be the first Agency to commit to helping customers GROW REVENUE THREE TIMES.</p>
       </div>
       <div className="relative w-full min-h-screen">
         <div className="absolute inset-0">
           <Image
             src="/image/banners/banner-5.jpg"
-            alt="glamquester"
+            alt="peperia"
             fill
             className="object-cover object-center w-full h-full -z-10 brightness-[0.85]"
           />
         </div>
         <div className={`absolute inset-0 flex justify-center items-center`}>
           <div className="w-full sm:w-[580px] flex justify-center items-center flex-col lg:gap-9 gap-4">
-            <h3 className="text-center text-white uppercase text-heading">OUR COMMITMENTS</h3>
+            <h3 className="text-center text-white uppercase text-heading">OUR MISSION</h3>
             <p className="leading-6 text-center text-white">
-              Fired up to boost your brand? We're a marketing firm dedicated to superior results, here's our method:
+              At the heart of our mission are unwavering commitments that reflect our dedication to your success in
+              growing revenue across the activities:
               <br />
-              - We start by listening. Grasping your vision is vital for effective marketing.
+              - Performance Marketing
               <br />
-              - Next, we research. We dive into market trends to keep your brand on top.
-              <br />- Lastly, we innovate. We apply avant-garde strategies to enhance your brand's influence.
+              - Branding Marketing
+              <br />- Market analysis and competitor research
             </p>
           </div>
         </div>
