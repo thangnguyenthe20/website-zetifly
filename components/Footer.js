@@ -110,6 +110,9 @@ const Footer = () => {
               <Link target="_blank" href="https://www.tiktok.com/@feg.cosmetics">
                 <img src="/image/icon/tiktok.svg" alt="" width={30} className="rounded" />
               </Link>
+              <Link target="_blank" href="https://middleeast.fegbeauty.com">
+                <img src="/image/icon/global.svg" alt="" width={30} className="rounded" />
+              </Link>
             </div>
           </div>
         </div>
