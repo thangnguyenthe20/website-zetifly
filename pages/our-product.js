@@ -5,80 +5,66 @@ import { v4 } from "uuid";
 
 const products = [
   {
-    name: "HolySmile Teeth Color Corrector",
-    image: "/image/products/product-1.jpg",
+    name: "KASOMO Hair and Brow Boost Serum",
+    image: "/image/products/product-1.webp",
     desc: [
-      "Transform your smile instantly with our teeth whitening treatment, reducing the visibility of yellow stains for a brighter appearance.",
-      "40ml",
-      "From the U.S.",
+      "Promote natural hair and eyebrow growth, helping you achieve fuller, thicker, and healthier-looking hair and brows.",
     ],
   },
   {
-    name: "CC Cream -Mushroom Head Air Cushion",
-    image: "/image/products/product-2.jpg",
+    name: "KASOMO Hair Growth Shampoo",
+    image: "/image/products/product-2.webp",
     desc: [
-      "Elevate your foundation application to achieve a weightless, effortlessly natural look.",
-      "20g",
-      "From the U.S.",
+      "Stimulate hair follicles, reduce hair loss, and promote healthier, thicker hair growth for a fuller and more vibrant mane.",
     ],
   },
   {
-    name: "Charmante Hand Skin Serum",
+    name: "Morri Orange Glow Exfoliating Lotion",
     image: "/image/products/product-3.jpg",
-    desc: ["Reduce wrinkles, deliver immediate moisture and effectively calm the skin.", "40ml", "From the U.S."],
+    desc: ["Gently remove dead skin cells, revealing brighter and smoother skin with a radiant, youthful glow."],
   },
   {
-    name: "Kasomo Hair Growth Spray",
-    image: "/image/products/product-4.png",
-    desc: ["Stimulates hair growth, combats hair loss and effectively tackles baldness.", "75ml", "From the U.S."],
-  },
-  {
-    name: "Kasomo Hair Mask",
-    image: "/image/products/product-5.png",
+    name: "Trezzen BlackSilk Hair Bar Soap",
+    image: "/image/products/product-4.jpg",
     desc: [
-      "Uncover the secret to lush, silky hair with our vegan hair mask. Bid farewell to frizz, dryness, and knots in mere seconds.",
-      "From the U.S.",
+      "Infused with nourishing ingredients to naturally darken and enhance hair color, leaving your locks silky smooth and lustrously black.",
     ],
   },
   {
-    name: "Kasomo Beard And Eyebrow Growth Serum",
+    name: "Berari Vanish Vein Reduction Cream",
+    image: "/image/products/product-5.jpg",
+    desc: [
+      "Diminish the appearance of varicose veins and spider veins, promoting smoother and healthier-looking skin.",
+    ],
+  },
+  {
+    name: "HolySmile RadiantWhite Teeth Whitening Serum",
     image: "/image/products/product-6.jpg",
-    desc: [
-      "Revive beard and eyebrow growth, amplifying thickness and length while strengthening for denser, more robust results, and reducing thinning and breakage in eyebrows.",
-      "From the U.S.",
-    ],
+    desc: ["Effectively lighten tooth discoloration and brighten your smile, restoring confidence with every use."],
   },
   {
-    name: "Kasomo Shampoo For Hair Loss And Dandruff",
+    name: "FungiGlow CC Cushion Cream",
     image: "/image/products/product-7.jpg",
-    desc: ["Proven to halt hair loss and eradicate dandruff within just one week of consistent use.", "From the U.S."],
-  },
-  {
-    name: "Morri Peeling Lotion",
-    image: "/image/products/product-8.jpg",
     desc: [
-      "Banish dead skin cells and dark spots to reveal a smoother, brighter complexion.",
-      "100ml",
-      "From the U.S.",
+      "A lightweight and hydrating formula with a unique mushroom-shaped applicator, providing seamless coverage and a natural, radiant finish for flawless-looking skin.",
     ],
   },
   {
-    name: "Trezzen Shampoo Bar Soap (Upgrade version)",
-    image: "/image/products/product-9.jpg",
+    name: "Charmante AquaGlow Hand Hydration Serum",
+    image: "/image/products/product-8.png",
     desc: [
-      "Restore your natural hair color with our daily shampoo, effectively turning gray or white hair into a youthful, vibrant dark hue.",
-      "60g",
-      "From the U.S.",
+      "A nourishing formula crafted to deeply moisturize and revitalize your hands, leaving them silky smooth and irresistibly touchable.",
     ],
   },
   {
-    name: "Berari Vein Recovery Balm",
+    name: "KASOMO Boosting Hair And Eyebrow Growth Serum",
+    image: "/image/products/product-9.webp",
+    desc: ["Revitalize your scalp, repair damage, and trigger cell renewal for denser hair and eyebrow growth."],
+  },
+  {
+    name: "KASOMO Nourishing Hair Repair Mask",
     image: "/image/products/product-10.jpg",
-    desc: [
-      "Quickly reduce the appearance of spider veins and broken blood vessels, strengthen veins, and improve vein wall function for a noticeable decrease in unsightly spider veins.",
-      "30g",
-      "From the U.S.",
-    ],
+    desc: ["An ideal therapy for damaged, unruly hair, effortlessly restore smoothness"],
   },
 ];
 

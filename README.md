@@ -47,8 +47,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 # casami
 
-# tunlife
+# freshvibs
 
-# website-tunlife
+# website-freshvibs
 
-# website-tunlife
+# website-freshvibs

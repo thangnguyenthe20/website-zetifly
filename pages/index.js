@@ -5,38 +5,35 @@ import classnames from "classnames";
 
 const users = [
   {
-    name: "Emily Jones",
-    comment:
-      "I appreciate the marketing team's honesty and transparency. They provide constructive feedback that helps improve our strategies and overall performance.",
-    image: "/image/users/user-1.png",
+    name: "John Smith",
+    comment: "Professional and creative. They significantly boosted our sales.",
+    image: "/image/users/user-1.jpg",
     rating: 5,
   },
   {
-    name: "Ryan Smith",
+    name: "Michael Brown",
     comment:
-      "The marketing department consistently delivers genuine insights and recommendations. Their feedback is valuable in shaping our approach and connecting with our audience.",
-    image: "/image/users/user-2.png",
+      " The team is truly exceptional. Their attention to detail and innovative solutions exceeded our expectations.",
+    image: "/image/users/user-2.jpg",
     rating: 5,
   },
   {
-    name: "Amanda Brown",
-    comment:
-      "The marketing team's authentic feedback has been instrumental in refining our messaging and targeting. Their dedication to understanding our brand and customers is evident in their insightful suggestions.",
-    image: "/image/users/user-3.png",
+    name: "Emily Roberts",
+    comment: "They work professionally and expertly. We're very pleased with their knowledge and collaboration.",
+    image: "/image/users/user-3.jpg",
     rating: 5,
   },
   {
-    name: "Jason Taylor",
-    comment:
-      "I've been impressed by the marketing team's genuine interest in our success. Their feedback is always thoughtful and backed by thorough analysis, which has helped us make informed decisions.",
-    image: "/image/users/user-4.png",
+    name: "Jessica Lee",
+    comment: "They work professionally and skillfully. We are very satisfied with their knowledge and cooperation.",
+    image: "/image/users/user-4.jpg",
     rating: 5,
   },
   {
-    name: "Megan Wilson",
+    name: "Emily Clark",
     comment:
-      "Working with the marketing team has been a pleasure. Their honest feedback and collaborative approach have strengthened our campaigns and overall marketing strategy.",
-    image: "/image/users/user-5.png",
+      "Exceptional service tailored to our needs. Their impact on our brand visibility and customer engagement has been remarkable.",
+    image: "/image/users/user-5.jpg",
     rating: 5,
   },
 ];
@@ -45,15 +42,19 @@ export default function Home() {
   return (
     <div>
       <div className="relative w-full h-screen">
-        <video className="object-cover w-full h-full brightness-90" autoPlay={true} muted loop>
-          <source src="/image/banners/banner-0.mp4" type="video/mp4"></source>
-        </video>
+        <div className="absolute inset-0">
+          <Image
+            src="/image/banners/banner-0.jpg"
+            alt="freshvibs"
+            fill
+            className="object-cover object-top w-full h-full -z-10 brightness-[0.9]"
+          />
+        </div>
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="w-full sm:w-[500px] flex justify-center items-center flex-col lg:gap-9 gap-4">
-            <h3 className="text-white uppercase text-heading">tunlife</h3>
+            <h3 className="text-white uppercase text-heading">freshvibs</h3>
             <p className="leading-6 text-center text-white">
-              Marketing transcends mere product sales; it encompasses the art of meticulously crafting authentic
-              customer value rather than solely fixating on inventive methods of distributing goods.
+              We specialize in providing comprehensive Marketing Solutions tailored to your business needs.
             </p>
           </div>
         </div>
@@ -62,7 +63,7 @@ export default function Home() {
         <div className="absolute inset-0">
           <Image
             src="/image/banners/banner-1.jpg"
-            alt="tunlife"
+            alt="freshvibs"
             fill
             className="object-cover object-top w-full h-full -z-10 brightness-[0.9]"
           />
@@ -72,8 +73,8 @@ export default function Home() {
             <div className="flex items-center justify-center w-full h-full px-8 pt-16 lg:px-6 sm:p-16">
               <div className="w-full sm:w-[600px] flex justify-center items-center lg:text-start text-center flex-col gap-9">
                 <p className="px-8 text-2xl text-center text-white sm:px-0">
-                  Marketing is the finesse of comprehending, communicating, and satisfying consumer needs and desires
-                  through strategic planning and imaginative implementation.
+                  We offer a range of marketing services and strategies aimed at boosting your company's revenue and
+                  profitability.
                 </p>
                 <Link href="/our-services" className="block text-white tracking-[1px] w-fit pb-2">
                   <button className="btn btn-primary w-fit">OUR SERVICES</button>
@@ -86,8 +87,8 @@ export default function Home() {
       <div className="relative w-full min-h-screen">
         <div className="absolute inset-0">
           <Image
-            src="/image/banners/banner-2.png"
-            alt="tunlife"
+            src="/image/banners/banner-2.jpg"
+            alt="freshvibs"
             fill
             className="object-cover object-center w-full h-full -z-10 brightness-[0.9]"
           />
@@ -97,8 +98,8 @@ export default function Home() {
             <div className="flex items-center justify-center w-full h-full px-8 pt-16 lg:px-6 sm:p-16">
               <div className="w-full sm:w-[600px] flex justify-center items-center lg:text-start text-center flex-col gap-9">
                 <p className="px-8 text-2xl text-center text-white sm:px-0">
-                  Business success is not the sole result of one individual's efforts, but rather the culmination of
-                  effective teamwork and collaboration.
+                  Our company was founded by industry veterans with over 15 years of experience, dedicated to delivering
+                  quality and excellence in every aspect of our services.
                 </p>
                 <Link href="/about" className="block text-white tracking-[1px] w-fit pb-2">
                   <button className="btn btn-primary w-fit">ABOUT US</button>
