@@ -5,36 +5,36 @@ import classnames from "classnames";
 
 const users = [
   {
-    name: "John Smith",
-    comment: "Professional and creative. They significantly boosted our sales.",
+    name: "Luke Faulkner",
+    comment: "The consultant is very professional. The solutions that SAKUTARA provides are highly feasible.",
     image: "/image/users/user-1.jpg",
     rating: 5,
   },
   {
-    name: "Michael Brown",
-    comment:
-      " The team is truly exceptional. Their attention to detail and innovative solutions exceeded our expectations.",
+    name: "Paul Paul",
+    comment: "I think Sakutara is suitable for startups.",
     image: "/image/users/user-2.jpg",
     rating: 5,
   },
   {
-    name: "Emily Roberts",
-    comment: "They work professionally and expertly. We're very pleased with their knowledge and collaboration.",
+    name: "Peter Persson",
+    comment:
+      "My business grew revenue by 20% over the same period last year thanks to the Online Marketing solution that Sakutara brings. Thank!",
     image: "/image/users/user-3.jpg",
     rating: 5,
   },
   {
-    name: "Jessica Lee",
-    comment: "They work professionally and skillfully. We are very satisfied with their knowledge and cooperation.",
+    name: "Ryan Robinson",
+    comment: "Very good and very professional!",
     image: "/image/users/user-4.jpg",
     rating: 5,
   },
   {
-    name: "Emily Clark",
+    name: "Artem Lyushnin",
     comment:
-      "Exceptional service tailored to our needs. Their impact on our brand visibility and customer engagement has been remarkable.",
+      "I have cooperated with this company since last year. They are very professional and capable, especially in the field of tiktok ads.",
     image: "/image/users/user-5.jpg",
-    rating: 5,
+    rating: 4,
   },
 ];
 
@@ -45,16 +45,16 @@ export default function Home() {
         <div className="absolute inset-0">
           <Image
             src="/image/banners/banner-0.jpg"
-            alt="freshvibs"
+            alt="sakutara"
             fill
             className="object-cover object-top w-full h-full -z-10 brightness-[0.9]"
           />
         </div>
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="w-full sm:w-[500px] flex justify-center items-center flex-col lg:gap-9 gap-4">
-            <h3 className="text-white uppercase text-heading">freshvibs</h3>
+            <h3 className="text-white uppercase text-heading">sakutara</h3>
             <p className="leading-6 text-center text-white">
-              We specialize in providing comprehensive Marketing Solutions tailored to your business needs.
+              SAKUTARA is proud to bring the highest quality and most feasible Online Marketing solutions to customers.
             </p>
           </div>
         </div>
@@ -63,7 +63,7 @@ export default function Home() {
         <div className="absolute inset-0">
           <Image
             src="/image/banners/banner-1.jpg"
-            alt="freshvibs"
+            alt="sakutara"
             fill
             className="object-cover object-top w-full h-full -z-10 brightness-[0.9]"
           />
@@ -73,8 +73,8 @@ export default function Home() {
             <div className="flex items-center justify-center w-full h-full px-8 pt-16 lg:px-6 sm:p-16">
               <div className="w-full sm:w-[600px] flex justify-center items-center lg:text-start text-center flex-col gap-9">
                 <p className="px-8 text-2xl text-center text-white sm:px-0">
-                  We offer a range of marketing services and strategies aimed at boosting your company's revenue and
-                  profitability.
+                  Professional, responsible, and highly specialized are what we have when providing you with Online
+                  Marketing services and solutions.
                 </p>
                 <Link href="/our-services" className="block text-white tracking-[1px] w-fit pb-2">
                   <button className="btn btn-primary w-fit">OUR SERVICES</button>
@@ -88,7 +88,7 @@ export default function Home() {
         <div className="absolute inset-0">
           <Image
             src="/image/banners/banner-2.jpg"
-            alt="freshvibs"
+            alt="sakutara"
             fill
             className="object-cover object-center w-full h-full -z-10 brightness-[0.9]"
           />
@@ -98,8 +98,8 @@ export default function Home() {
             <div className="flex items-center justify-center w-full h-full px-8 pt-16 lg:px-6 sm:p-16">
               <div className="w-full sm:w-[600px] flex justify-center items-center lg:text-start text-center flex-col gap-9">
                 <p className="px-8 text-2xl text-center text-white sm:px-0">
-                  Our company was founded by industry veterans with over 15 years of experience, dedicated to delivering
-                  quality and excellence in every aspect of our services.
+                  At SAKUTARA, we promote a high sense of responsibility and professionalism. With a team of staff with
+                  more than 10 years of experience, we are confident in providing the highest quality solutions.
                 </p>
                 <Link href="/about" className="block text-white tracking-[1px] w-fit pb-2">
                   <button className="btn btn-primary w-fit">ABOUT US</button>

@@ -41,9 +41,7 @@ const ProductSection = () => {
             <h3 className="text-heading text-5xl text-white p-6 tracking-wide leading-[50px]">
               Customize every product in your routine
             </h3>
-            <p className="text-label text-white underline">
-              See the full collection
-            </p>
+            <p className="text-label text-white underline">See the full collection</p>
           </div>
         </div>
         {products.map((product, index) => (

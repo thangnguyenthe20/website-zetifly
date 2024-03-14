@@ -5,78 +5,94 @@ import { v4 } from "uuid";
 
 const products = [
   {
-    name: "KASOMO Hair and Brow Boost Serum",
-    image: "/image/products/product-1.webp",
+    name: "HolySmile Clinically Proven Teeth Whitening Serum",
+    fanpage: "https://www.facebook.com/LoungeForLady",
+    image: "/image/products/product-1.png",
     desc: [
-      "Promote natural hair and eyebrow growth, helping you achieve fuller, thicker, and healthier-looking hair and brows.",
+      "Conceals the yellow tones in your teeth to improve and enhance the whiteness of your smile.",
+      "40ml",
+      "From the U.S.",
     ],
   },
   {
-    name: "KASOMO Hair Growth Shampoo",
-    image: "/image/products/product-2.webp",
+    name: "Mushroom Head Air Cushion CC Cream",
+    fanpage: "https://www.facebook.com/profile.php?id=61555957303343",
+    image: "/image/products/product-2.jpg",
     desc: [
-      "Stimulate hair follicles, reduce hair loss, and promote healthier, thicker hair growth for a fuller and more vibrant mane.",
+      "This highly blendable and buildable formula goes on smooth as silk, providing medium-to-full coverage and weightless all-day wear.",
+      "20g",
+      "From the U.S.",
     ],
   },
   {
-    name: "Morri Orange Glow Exfoliating Lotion",
+    name: "Charmante Hand Skin Serum",
+    fanpage: "https://www.facebook.com/profile.php?id=61556458611718",
     image: "/image/products/product-3.jpg",
-    desc: ["Gently remove dead skin cells, revealing brighter and smoother skin with a radiant, youthful glow."],
+    desc: ["Help protect hands from dryness, moisturize, nourish and soothe.", "40ml", "From the U.S."],
   },
   {
-    name: "Trezzen BlackSilk Hair Bar Soap",
+    name: "KASOMO Stimulating Beard & Eyebrow Growth Serum",
+    fanpage: "https://www.facebook.com/profile.php?id=61556227740537",
     image: "/image/products/product-4.jpg",
     desc: [
-      "Infused with nourishing ingredients to naturally darken and enhance hair color, leaving your locks silky smooth and lustrously black.",
+      "Regrow beards & eyebrows fast in weeks, improve patchy, short beards, and eyebrows.",
+      "30ml",
+      "From the U.S.",
     ],
   },
   {
-    name: "Berari Vanish Vein Reduction Cream",
+    name: "KASOMO Anti Dandruff & Hair Loss Shampoo",
+    fanpage: "https://www.facebook.com/Kasomohairmask",
     image: "/image/products/product-5.jpg",
+    desc: ["Remove dandruff, fungal scalp and prevent hair loss in just 7 days.", "250ml", "From the U.S."],
+  },
+  {
+    name: "Morri Glow Renewal Exfoliating Gel",
+    fanpage: "https://www.facebook.com/profile.php?id=100071667795588",
+    image: "/image/products/product-6.jpg",
     desc: [
-      "Diminish the appearance of varicose veins and spider veins, promoting smoother and healthier-looking skin.",
+      "Frequent use gently exfoliates, promoting a clearer, even complexion, while simultaneously hydrating and smoothing the skin.",
+      "100ml",
+      "From the U.S.",
     ],
   },
   {
-    name: "HolySmile RadiantWhite Teeth Whitening Serum",
-    image: "/image/products/product-6.jpg",
-    desc: ["Effectively lighten tooth discoloration and brighten your smile, restoring confidence with every use."],
-  },
-  {
-    name: "FungiGlow CC Cushion Cream",
+    name: "Trezzen Grey Hair Removal Bar Soap",
+    fanpage: "https://www.facebook.com/profile.php?id=100086779023347",
     image: "/image/products/product-7.jpg",
     desc: [
-      "A lightweight and hydrating formula with a unique mushroom-shaped applicator, providing seamless coverage and a natural, radiant finish for flawless-looking skin.",
+      "Diminishes grey tones with each wash while simultaneously boosting hair thickness by up to 98%.",
+      "30g",
+      "From the U.S.",
     ],
   },
   {
-    name: "Charmante AquaGlow Hand Hydration Serum",
-    image: "/image/products/product-8.png",
+    name: "Berari Vein Recovery Balm",
+    fanpage: "https://www.facebook.com/profile.php?id=100086253897950",
+    image: "/image/products/product-8.jpg",
     desc: [
-      "A nourishing formula crafted to deeply moisturize and revitalize your hands, leaving them silky smooth and irresistibly touchable.",
+      "Swiftly diminish spider veins and broken blood vessels, fortify veins, and enhance vein wall functionality for a noticeable reduction in unsightly spider veins.",
+      "30ml",
+      "From the U.S.",
     ],
-  },
-  {
-    name: "KASOMO Boosting Hair And Eyebrow Growth Serum",
-    image: "/image/products/product-9.webp",
-    desc: ["Revitalize your scalp, repair damage, and trigger cell renewal for denser hair and eyebrow growth."],
-  },
-  {
-    name: "KASOMO Nourishing Hair Repair Mask",
-    image: "/image/products/product-10.jpg",
-    desc: ["An ideal therapy for damaged, unruly hair, effortlessly restore smoothness"],
   },
 ];
 
 const OurProduct = () => {
   return (
     <div className="px-3 py-6 lg:px-16 sm:px-6 sm:py-8 lg:py-10">
-      <div className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 md:gap-4 xl:gap-6">
-        {products.map(({ name, image, desc }) => (
+      <div className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 md:gap-4 xl:gap-6">
+        {products.map(({ name, fanpage, image, desc }) => (
           <div key={v4()} className="flex flex-col overflow-hidden rounded shadow">
-            <img src={image} alt="product" className="aspect-square"></img>
+            <Link target="_blank" href={fanpage}>
+              <img src={image} alt="product" className="aspect-square" />
+            </Link>
             <div className="flex flex-col gap-3 px-3 pt-4 pb-5">
-              <p className="text-[16px] text-center hover:text-blue-400 text-black leading-6">{name}</p>
+              <p className="text-[16px] text-center hover:text-blue-400 text-black leading-6">
+                <Link target="_blank" href={fanpage}>
+                  {name}
+                </Link>
+              </p>
               <div className="flex-center">
                 <ul className="space-y-1">
                   {desc.map((text) => (
@@ -85,6 +101,13 @@ const OurProduct = () => {
                     </li>
                   ))}
                 </ul>
+              </div>
+              <div className="flex-center">
+                <Link target="_blank" href={fanpage}>
+                  <p className="px-3 py-1.5 uppercase bg-[#EE427F] text-white block w-fit rounded-md text-sm hover:bg-[#ff78a7]">
+                    View fanpage
+                  </p>
+                </Link>
               </div>
             </div>
           </div>
