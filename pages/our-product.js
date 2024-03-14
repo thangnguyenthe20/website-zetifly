@@ -1,73 +1,74 @@
 /* eslint-disable @next/next/no-img-element */
-import Link from "next/link";
 import React from "react";
 import { v4 } from "uuid";
 
 const products = [
   {
-    name: "HolySmile Teeth Color Changing Serum",
+    name: "Charmante hand skin softening and brightening serum",
     image: "/image/products/product-1.jpg",
-    desc: ["Conceal yellow tones in your teeth to improve and brighten your smile."],
+    desc: ["Serum heals chapped skin, softens and moisturizes hands, and brightens hands.", "40ml", "Made in USA"],
   },
   {
-    name: "Mushroom Head Air CC Cream Anti Pore Cushion",
-    image: "/image/products/product-2.webp",
-    desc: ["Providing full coverage and an even skin tone, suitable for all skin types."],
+    name: "Trezzen Hair Color Improving Bar Soap",
+    image: "/image/products/product-2.jpg",
+    desc: [
+      "Hair blackening soap makes hair shiny and effectively prevents dandruff, hair loss, and itching.",
+      "60g",
+      "Made in USA",
+    ],
   },
   {
-    name: "Charmante Perfect Hand Brighten Moisturizing Serum",
+    name: "Melasma treatment cream",
     image: "/image/products/product-3.jpg",
     desc: [
-      "Protect hands from environmental and household irritants, smooth the skin, and provide a refreshing, revitalizing experience.",
+      "The moisturizer deeply hydrates and fades dark spots, pigmentation, and redness while soothing irritation with pro-retinol.",
+      "30g",
+      "Made in USA",
     ],
   },
   {
-    name: "KASOMO Hair ReGrowth and Smooth Spray",
-    image: "/image/products/product-4.jpg",
-    desc: ["Repairs the scalp and reactivates the cells"],
+    name: "KASOMO Boosting Hair And Eyebrow Growth Serum",
+    image: "/image/products/product-4.webp",
+    desc: [
+      "Revitalize your scalp, repair damage, and trigger cell renewal for denser hair and eyebrow growth.",
+      "400ml",
+      "Made in USA",
+    ],
   },
   {
-    name: "KASOMO Nourishing and Smooth Mask For Hair",
+    name: "KASOMO Nourishing Hair Repair Mask",
     image: "/image/products/product-5.jpg",
+    desc: ["An ideal therapy for damaged, unruly hair, effortlessly restore smoothness", "300ml", "Made in USA"],
+  },
+  {
+    name: "HolySmile Teeth Color Improving Toothpaste",
+    image: "/image/products/product-6.jpg",
     desc: [
-      "Perfect remedy for damaged, coarse hair; assist restore your smoothness with just a few therapeutic drops.",
+      "To brighten and increase the brightness of your smile, cover up any yellow tones in your teeth",
+      "30ml",
+      "Made in USA",
     ],
   },
   {
-    name: "KASOMO Beard - Brow Nourishing Oil",
-    image: "/image/products/product-6.png",
-    desc: ["Best Beard Care for Moisturizing and Softening. Care your beard to the fullest."],
-  },
-  {
-    name: "KASOMO Anti Hair Loss Shampoo",
-    image: "/image/products/product-7.jpg",
+    name: "Berari Vein Blurring Lotion",
+    image: "/image/products/product-7.png",
     desc: [
-      "Gently cleanses the hair and scalp, eliminating excess follicle-clogging sebum to help maintain an optimal scalp environment for healthy-looking hair.",
+      "Minimize the visibility of spider and varicose veins; lessen discomfort and edema; enhances blood flow",
+      "30ml",
+      "Made in USA",
     ],
   },
   {
-    name: "Morri Skin Peeling Gel",
+    name: "Morri body exfoliating lotion",
     image: "/image/products/product-8.jpg",
-    desc: ["Improve skin problems of rough and dry, keratin accumulation, dark yellow, dull skin."],
-  },
-  {
-    name: "Trezzen Darken Bar Soap",
-    image: "/image/products/product-9.jpg",
-    desc: ["Restoring your natural hair color, from gray hair to vivid dark color."],
-  },
-  {
-    name: "Berari Vein Repair Cream",
-    image: "/image/products/product-10.jpg",
-    desc: [
-      "Reduce spider veins and fractured blood vessels rapidly, strengthen veins, and improve vein wall function to help fade unattractive spider veins.",
-    ],
+    desc: ["The cream removes blemishes, dullness, blemishes and brightens your skin.", "100ml", "Made in USA"],
   },
 ];
 
 const OurProduct = () => {
   return (
     <div className="px-3 py-6 lg:px-16 sm:px-6 sm:py-8 lg:py-10">
-      <div className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 md:gap-4 xl:gap-6">
+      <div className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 md:gap-4 xl:gap-6">
         {products.map(({ name, image, desc }) => (
           <div key={v4()} className="flex flex-col overflow-hidden rounded shadow">
             <img src={image} alt="product" className="aspect-square" />

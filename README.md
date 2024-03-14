@@ -47,8 +47,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 # casami
 
-# dumamy
+# zetifly
 
-# website-dumamy
+# website-zetifly
 
-# website-dumamy
+# website-zetifly
