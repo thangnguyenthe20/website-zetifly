@@ -5,35 +5,36 @@ import classnames from "classnames";
 
 const users = [
   {
-    name: "Luke Faulkner",
-    comment: "The consultant is very professional. The solutions that SAKUTARA provides are highly feasible.",
+    name: "Nick Scoop Mc.",
+    comment:
+      "This has been the best decision we have made for our new business. We constantly are told by our patients that our website is so unique and how much it stands out from other websites. Corridoy captured exactly what we told them we stood for and we couldn’t be any happier with their service!",
     image: "/image/users/user-1.jpg",
     rating: 5,
   },
   {
-    name: "Paul Paul",
-    comment: "I think Sakutara is suitable for startups.",
-    image: "/image/users/user-2.jpg",
+    name: "Grace Michael G.",
+    comment:
+      "Very professional, on time, communicates in a timely manner and has amazing ideas for the best marketing message.",
+    image: "/image/users/user-2.webp",
     rating: 5,
   },
   {
-    name: "Peter Persson",
-    comment:
-      "My business grew revenue by 20% over the same period last year thanks to the Online Marketing solution that Sakutara brings. Thank!",
+    name: "Ytly Hinson",
+    comment: "We are so pleased with the professionalism and talent that has been provided!",
     image: "/image/users/user-3.jpg",
     rating: 5,
   },
   {
-    name: "Ryan Robinson",
-    comment: "Very good and very professional!",
-    image: "/image/users/user-4.jpg",
+    name: "Zoe L.",
+    comment: `I'm sure this isn't "business as usual", so the extra effort put into this job was truly appreciated. I highly recommend Corridoy and look forward to working with them again in the future!`,
+    image: "/image/users/user-4.webp",
     rating: 5,
   },
   {
-    name: "Artem Lyushnin",
+    name: "Jonathan Grabham",
     comment:
-      "I have cooperated with this company since last year. They are very professional and capable, especially in the field of tiktok ads.",
-    image: "/image/users/user-5.jpg",
+      "I’ve dealt with multiple people with different websites and have never been happy with the results. I would recommend them every time!",
+    image: "/image/users/user-5.webp",
     rating: 4,
   },
 ];
@@ -45,16 +46,17 @@ export default function Home() {
         <div className="absolute inset-0">
           <Image
             src="/image/banners/banner-0.jpg"
-            alt="sakutara"
+            alt="dumamy"
             fill
             className="object-cover object-top w-full h-full -z-10 brightness-[0.9]"
           />
         </div>
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="w-full sm:w-[500px] flex justify-center items-center flex-col lg:gap-9 gap-4">
-            <h3 className="text-white uppercase text-heading">sakutara</h3>
+            <h3 className="text-white uppercase text-heading">dumamy</h3>
             <p className="leading-6 text-center text-white">
-              SAKUTARA is proud to bring the highest quality and most feasible Online Marketing solutions to customers.
+              Welcome to a realm of innovation and excellence in the field of marketing, where we specialize in
+              delivering top-tier solutions.
             </p>
           </div>
         </div>
@@ -63,7 +65,7 @@ export default function Home() {
         <div className="absolute inset-0">
           <Image
             src="/image/banners/banner-1.jpg"
-            alt="sakutara"
+            alt="dumamy"
             fill
             className="object-cover object-top w-full h-full -z-10 brightness-[0.9]"
           />
@@ -73,8 +75,8 @@ export default function Home() {
             <div className="flex items-center justify-center w-full h-full px-8 pt-16 lg:px-6 sm:p-16">
               <div className="w-full sm:w-[600px] flex justify-center items-center lg:text-start text-center flex-col gap-9">
                 <p className="px-8 text-2xl text-center text-white sm:px-0">
-                  Professional, responsible, and highly specialized are what we have when providing you with Online
-                  Marketing services and solutions.
+                  Dive into the forefront of marketing with our pioneering approach, offering unmatched quality and
+                  expertise.
                 </p>
                 <Link href="/our-services" className="block text-white tracking-[1px] w-fit pb-2">
                   <button className="btn btn-primary w-fit">OUR SERVICES</button>
@@ -88,7 +90,7 @@ export default function Home() {
         <div className="absolute inset-0">
           <Image
             src="/image/banners/banner-2.jpg"
-            alt="sakutara"
+            alt="dumamy"
             fill
             className="object-cover object-center w-full h-full -z-10 brightness-[0.9]"
           />
@@ -98,8 +100,8 @@ export default function Home() {
             <div className="flex items-center justify-center w-full h-full px-8 pt-16 lg:px-6 sm:p-16">
               <div className="w-full sm:w-[600px] flex justify-center items-center lg:text-start text-center flex-col gap-9">
                 <p className="px-8 text-2xl text-center text-white sm:px-0">
-                  At SAKUTARA, we promote a high sense of responsibility and professionalism. With a team of staff with
-                  more than 10 years of experience, we are confident in providing the highest quality solutions.
+                  Uncover the future of marketing through our dynamic and forward-thinking commitment to pushing
+                  boundaries.
                 </p>
                 <Link href="/about" className="block text-white tracking-[1px] w-fit pb-2">
                   <button className="btn btn-primary w-fit">ABOUT US</button>

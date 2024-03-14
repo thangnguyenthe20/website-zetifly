@@ -5,75 +5,61 @@ import { v4 } from "uuid";
 
 const products = [
   {
-    name: "HolySmile Clinically Proven Teeth Whitening Serum",
-    fanpage: "https://www.facebook.com/LoungeForLady",
-    image: "/image/products/product-1.png",
-    desc: [
-      "Conceals the yellow tones in your teeth to improve and enhance the whiteness of your smile.",
-      "40ml",
-      "From the U.S.",
-    ],
+    name: "HolySmile Teeth Color Changing Serum",
+    image: "/image/products/product-1.jpg",
+    desc: ["Conceal yellow tones in your teeth to improve and brighten your smile."],
   },
   {
-    name: "Mushroom Head Air Cushion CC Cream",
-    fanpage: "https://www.facebook.com/profile.php?id=61555957303343",
-    image: "/image/products/product-2.jpg",
-    desc: [
-      "This highly blendable and buildable formula goes on smooth as silk, providing medium-to-full coverage and weightless all-day wear.",
-      "20g",
-      "From the U.S.",
-    ],
+    name: "Mushroom Head Air CC Cream Anti Pore Cushion",
+    image: "/image/products/product-2.webp",
+    desc: ["Providing full coverage and an even skin tone, suitable for all skin types."],
   },
   {
-    name: "Charmante Hand Skin Serum",
-    fanpage: "https://www.facebook.com/profile.php?id=61556458611718",
+    name: "Charmante Perfect Hand Brighten Moisturizing Serum",
     image: "/image/products/product-3.jpg",
-    desc: ["Help protect hands from dryness, moisturize, nourish and soothe.", "40ml", "From the U.S."],
+    desc: [
+      "Protect hands from environmental and household irritants, smooth the skin, and provide a refreshing, revitalizing experience.",
+    ],
   },
   {
-    name: "KASOMO Stimulating Beard & Eyebrow Growth Serum",
-    fanpage: "https://www.facebook.com/profile.php?id=61556227740537",
+    name: "KASOMO Hair ReGrowth and Smooth Spray",
     image: "/image/products/product-4.jpg",
-    desc: [
-      "Regrow beards & eyebrows fast in weeks, improve patchy, short beards, and eyebrows.",
-      "30ml",
-      "From the U.S.",
-    ],
+    desc: ["Repairs the scalp and reactivates the cells"],
   },
   {
-    name: "KASOMO Anti Dandruff & Hair Loss Shampoo",
-    fanpage: "https://www.facebook.com/Kasomohairmask",
+    name: "KASOMO Nourishing and Smooth Mask For Hair",
     image: "/image/products/product-5.jpg",
-    desc: ["Remove dandruff, fungal scalp and prevent hair loss in just 7 days.", "250ml", "From the U.S."],
-  },
-  {
-    name: "Morri Glow Renewal Exfoliating Gel",
-    fanpage: "https://www.facebook.com/profile.php?id=100071667795588",
-    image: "/image/products/product-6.jpg",
     desc: [
-      "Frequent use gently exfoliates, promoting a clearer, even complexion, while simultaneously hydrating and smoothing the skin.",
-      "100ml",
-      "From the U.S.",
+      "Perfect remedy for damaged, coarse hair; assist restore your smoothness with just a few therapeutic drops.",
     ],
   },
   {
-    name: "Trezzen Grey Hair Removal Bar Soap",
-    fanpage: "https://www.facebook.com/profile.php?id=100086779023347",
+    name: "KASOMO Beard - Brow Nourishing Oil",
+    image: "/image/products/product-6.png",
+    desc: ["Best Beard Care for Moisturizing and Softening. Care your beard to the fullest."],
+  },
+  {
+    name: "KASOMO Anti Hair Loss Shampoo",
     image: "/image/products/product-7.jpg",
     desc: [
-      "Diminishes grey tones with each wash while simultaneously boosting hair thickness by up to 98%.",
-      "30g",
-      "From the U.S.",
+      "Gently cleanses the hair and scalp, eliminating excess follicle-clogging sebum to help maintain an optimal scalp environment for healthy-looking hair.",
     ],
   },
   {
-    name: "Berari Vein Recovery Balm",
-    fanpage: "https://www.facebook.com/profile.php?id=100086253897950",
+    name: "Morri Skin Peeling Gel",
     image: "/image/products/product-8.jpg",
+    desc: ["Improve skin problems of rough and dry, keratin accumulation, dark yellow, dull skin."],
+  },
+  {
+    name: "Trezzen Darken Bar Soap",
+    image: "/image/products/product-9.jpg",
+    desc: ["Restoring your natural hair color, from gray hair to vivid dark color."],
+  },
+  {
+    name: "Berari Vein Repair Cream",
+    image: "/image/products/product-10.jpg",
     desc: [
-      "Swiftly diminish spider veins and broken blood vessels, fortify veins, and enhance vein wall functionality for a noticeable reduction in unsightly spider veins.",
-      "30ml",
-      "From the U.S.",
+      "Reduce spider veins and fractured blood vessels rapidly, strengthen veins, and improve vein wall function to help fade unattractive spider veins.",
     ],
   },
 ];
@@ -81,18 +67,12 @@ const products = [
 const OurProduct = () => {
   return (
     <div className="px-3 py-6 lg:px-16 sm:px-6 sm:py-8 lg:py-10">
-      <div className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 md:gap-4 xl:gap-6">
-        {products.map(({ name, fanpage, image, desc }) => (
+      <div className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 md:gap-4 xl:gap-6">
+        {products.map(({ name, image, desc }) => (
           <div key={v4()} className="flex flex-col overflow-hidden rounded shadow">
-            <Link target="_blank" href={fanpage}>
-              <img src={image} alt="product" className="aspect-square" />
-            </Link>
+            <img src={image} alt="product" className="aspect-square" />
             <div className="flex flex-col gap-3 px-3 pt-4 pb-5">
-              <p className="text-[16px] text-center hover:text-blue-400 text-black leading-6">
-                <Link target="_blank" href={fanpage}>
-                  {name}
-                </Link>
-              </p>
+              <p className="text-[16px] text-center hover:text-blue-400 text-black leading-6">{name}</p>
               <div className="flex-center">
                 <ul className="space-y-1">
                   {desc.map((text) => (
@@ -101,13 +81,6 @@ const OurProduct = () => {
                     </li>
                   ))}
                 </ul>
-              </div>
-              <div className="flex-center">
-                <Link target="_blank" href={fanpage}>
-                  <p className="px-3 py-1.5 uppercase bg-[#EE427F] text-white block w-fit rounded-md text-sm hover:bg-[#ff78a7]">
-                    View fanpage
-                  </p>
-                </Link>
               </div>
             </div>
           </div>
